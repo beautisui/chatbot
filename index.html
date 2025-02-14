@@ -7,7 +7,7 @@
     body {
       height: 500px;
       width: 500px;
-      border: 1px solid grey;
+      border: 1px solid rgba(0, 0, 0, 50%);
       margin: 200px;
       padding: 30px;
       font-family: sans-serif;
@@ -15,15 +15,18 @@
 
     .heading {
       font-weight: lighter;
-      color: grey;
+      color: rgba(0, 0, 0, 60%);
+      ;
       font-size: 40px;
     }
 
     .chatbot-details {
       font-weight: lighter;
-      color: grey;
+      color: rgba(0, 0, 0, 50%);
+      ;
       text-align: left;
       line-height: 22px;
+      font-size: 20px;
     }
 
     .click-try-botton {
@@ -33,6 +36,12 @@
       border-radius: 25px;
       text-align: center;
       color: white;
+    }
+
+    #terms-and-conditions {
+      font-weight: lighter;
+      color: rgba(0, 0, 0, 35%);
+      font-size: 14px;
     }
   </style>
 </head>
@@ -44,8 +53,10 @@
     up
     for ChatBot.</p>
 
-  <div class="click-try-botton">TRY NOW </div>
+  <div class="click-try-botton">TRY NOW →</div>
 
+  <p id="terms-and-conditions">By clicking try now you create an account and agree to our Terms and Conditions and
+    Private Policy.</p>
 
 </body>
 
